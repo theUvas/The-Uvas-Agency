@@ -7,6 +7,13 @@ const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "500", "600", "
 export const metadata: Metadata = {
     title: "The Uvas - Marketing Agency for Creative & Local Businesses | $1,500/mo",
     description: "Your complete marketing department without hiring a team. Ads, website, CRM, and weekly reports for $1,500/month.",
+    manifest: "/manifest.json",
+    themeColor: "#7c3aed",
+    appleWebApp: {
+        capable: true,
+        statusBarStyle: "default",
+        title: "The Uvas CRM",
+    },
 };
 
 export default function RootLayout({
