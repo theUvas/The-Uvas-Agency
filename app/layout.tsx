@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://theuvas.com'),
+  metadataBase: new URL('https://www.theuvas.com'),
   title: {
     default: "The Uvas | AI Marketing Agency + Custom CRM | $1,500/mo",
     template: "%s | The Uvas",
@@ -55,17 +55,17 @@ export const metadata: Metadata = {
     "marketing para spa",
     "marketing para restaurante",
   ],
-  authors: [{ name: "The Uvas Team", url: "https://theuvas.com" }],
+  authors: [{ name: "The Uvas Team", url: "https://www.theuvas.com" }],
   creator: "The Uvas",
   publisher: "The Uvas",
   manifest: "/manifest.json",
   alternates: {
-    canonical: "https://theuvas.com",
+    canonical: "https://www.theuvas.com",
     languages: {
-      "en-US": "https://theuvas.com",
-      "es-ES": "https://theuvas.com",
-      "es-MX": "https://theuvas.com",
-      "es-419": "https://theuvas.com",
+      "en-US": "https://www.theuvas.com",
+      "es-ES": "https://www.theuvas.com",
+      "es-MX": "https://www.theuvas.com",
+      "es-419": "https://www.theuvas.com",
     },
   },
   openGraph: {
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     title: "The Uvas | AI Marketing Agency + Custom CRM | $1,500/mo",
     description: "Your complete marketing department: Google & Meta Ads, Custom CRM with native iOS/Android app, AI-optimized website, 8 posts/week. All-in $1,500/mo. Founded by Google & Meta engineers. 8x ROAS proven.",
     siteName: "The Uvas",
-    url: "https://theuvas.com",
+    url: "https://www.theuvas.com",
     images: [
       {
         url: "/assets/logo.webp",
@@ -131,9 +131,9 @@ export default function RootLayout({
               "@type": "ProfessionalService",
               "name": "The Uvas",
               "description": "AI-powered marketing agency offering all-in-one growth solutions: Website optimization, Google & Meta Ads management, Custom CRM with native mobile app, and weekly content creation (8 posts + 8 stories).",
-              "url": "https://theuvas.com",
-              "logo": "https://theuvas.com/assets/logo.webp",
-              "image": "https://theuvas.com/assets/logo.webp",
+              "url": "https://www.theuvas.com",
+              "logo": "https://www.theuvas.com/assets/logo.webp",
+              "image": "https://www.theuvas.com/assets/logo.webp",
               "telephone": "+1-555-UVAS-NOW",
               "priceRange": "$1500",
               "currenciesAccepted": "USD",
@@ -313,18 +313,18 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "The Uvas",
               "alternateName": ["The Uvas Agency", "TheUvas", "theuvas.com"],
-              "url": "https://theuvas.com",
+              "url": "https://www.theuvas.com",
               "description": "AI-powered marketing agency. All-in-one: Google & Meta Ads, Custom CRM with mobile app, AI-optimized website, weekly content. $1,500/mo flat rate.",
               "publisher": {
                 "@type": "Organization",
                 "name": "The Uvas",
-                "url": "https://theuvas.com",
+                "url": "https://www.theuvas.com",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://theuvas.com/assets/logo.webp"
+                  "url": "https://www.theuvas.com/assets/logo.webp"
                 },
                 "sameAs": [
-                  "https://theuvas.com",
+                  "https://www.theuvas.com",
                   "https://instagram.com/theuvasagency",
                   "https://twitter.com/theuvasagency"
                 ]
@@ -341,7 +341,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               "name": "The Uvas",
-              "url": "https://theuvas.com",
+              "url": "https://www.theuvas.com",
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "5.0",

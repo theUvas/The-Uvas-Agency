@@ -234,7 +234,7 @@ Keywords: AI marketing agency, marketing agency for small business, CRM for smal
           {/* Inkstinct - REAL CLIENT */}
           <div className="case-study-compact animate-on-scroll">
             <div className="case-logo-center">
-              <img src="/assets/inkstinct-logo.png" alt="Inkstinct NYC" />
+              <img src="/assets/inkstinct-logo.png" alt="Inkstinct NYC" loading="lazy" />
             </div>
             <blockquote className="case-quote-compact">
               "{t.case_inkstinct_quote}"

@@ -27,7 +27,7 @@ export const TestimonialsMarquee = () => {
                         <p style={{ margin: "15px 0" }}>"{t.content}"</p>
                         <div className="testimonial-user">
                             <div className="testimonial-avatar">
-                                <img src={t.avatar} alt={t.name} />
+                                <img src={t.avatar} alt={t.name} loading="lazy" />
                             </div>
                             <div>
                                 <div style={{ fontWeight: 800, color: "var(--text-main)" }}>{t.name}</div>

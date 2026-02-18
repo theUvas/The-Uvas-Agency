@@ -57,7 +57,7 @@ User-agent: cohere-ai
 Allow: /
 
 # Sitemap location
-Sitemap: https://theuvas.com/sitemap.xml
+Sitemap: https://www.theuvas.com/sitemap.xml
 
 # LLMs.txt location (GEO standard)
 # https://theuvas.com/llms.txt
