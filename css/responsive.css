@@ -1,0 +1,390 @@
+/* Mobile/Tablet Responsiveness */
+
+/* ============ TABLET (1024px) ============ */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ============ MOBILE (768px) ============ */
+@media (max-width: 768px) {
+
+    /* Global Adjustments */
+    :root {
+        --section-spacing: 40px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .section-header {
+        margin: 0 auto 40px;
+    }
+
+    .btn {
+        padding: 14px 28px;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Prevent nav buttons from going full-width */
+    nav .btn,
+    .sticky-header .btn {
+        width: auto;
+    }
+
+    /* Navigation */
+    nav .container {
+        padding: 12px 20px;
+    }
+
+    .nav-brand-name {
+        font-size: 0.95rem !important;
+    }
+
+    .nav-cta-btn {
+        padding: 10px 20px !important;
+        font-size: 0.85rem !important;
+    }
+
+    /* Hero */
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+        min-height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    /* Fix inline styles on hero elements */
+    .hero-text-container {
+        text-align: center !important;
+        max-width: 100% !important;
+    }
+
+    .hero p,
+    .hero .hero-content>p {
+        font-size: 1.1rem !important;
+        margin: 30px auto !important;
+        max-width: 100% !important;
+        line-height: 1.6;
+    }
+
+    .hero .btn-primary {
+        padding: 18px 40px !important;
+        font-size: 1rem !important;
+        width: 100%;
+    }
+
+    .hero-bg-glow {
+        width: 300px;
+        height: 300px;
+        opacity: 0.2;
+    }
+
+    .hero-stats {
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 12px;
+        padding: 10px 20px;
+        width: auto;
+        max-width: 95%;
+        margin: 40px auto 0 !important;
+        overflow-x: visible;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 50px;
+    }
+
+    .stat-item {
+        flex: 1;
+        min-width: max-content;
+        padding: 5px 8px;
+        font-size: 0.6rem;
+        gap: 6px;
+    }
+
+    .stat-item svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .stat-item:not(:last-child)::after {
+        display: block;
+        margin-left: 10px;
+        height: 12px;
+    }
+
+    /* Grids */
+    .grid-3,
+    .grid-2 {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    /* Glass Cards */
+    .glass-card {
+        padding: 30px;
+    }
+
+    /* Results Cards */
+    .result-metric {
+        font-size: 2.8rem;
+    }
+
+    /* Testimonial Cards */
+    .testimonial-card {
+        width: 280px;
+        padding: 22px;
+    }
+
+    .testimonial-card p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .marquee-container {
+        padding: 30px 0;
+    }
+
+    /* Testimonials section padding */
+    #testimonials,
+    [style*="padding: 100px 0"] {
+        padding: 60px 0 !important;
+    }
+
+    /* Pricing Table */
+    .pricing-table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pricing-table th,
+    .pricing-table td {
+        padding: 12px;
+        font-size: 0.85rem;
+    }
+
+    /* Process Cards */
+    .process-card {
+        padding: 40px 30px 30px;
+    }
+
+    .step-number {
+        font-size: 5rem;
+    }
+
+    /* Diff Cards */
+    .diff-card {
+        padding: 30px;
+    }
+
+    /* Contact Section */
+    .contact-section .grid-2 {
+        gap: 40px;
+    }
+
+    .form-textarea {
+        min-height: 120px;
+    }
+
+    /* Fix contact bonus checklist grid */
+    .contact-section ul {
+        grid-template-columns: 1fr !important;
+        gap: 8px !important;
+    }
+
+    .contact-section li {
+        font-size: 0.85rem !important;
+    }
+
+    /* Fix contact bonus box */
+    .contact-section [style*="padding: 24px"] {
+        padding: 20px !important;
+    }
+}
+
+/* ============ SMALL MOBILE (480px) ============ */
+@media (max-width: 480px) {
+
+    :root {
+        --section-spacing: 35px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /* Navigation compact */
+    nav .container {
+        padding: 10px 16px;
+        gap: 8px;
+    }
+
+    nav img[alt="The Uvas"] {
+        height: 32px !important;
+    }
+
+    .nav-brand-name {
+        font-size: 0.85rem !important;
+    }
+
+    .nav-cta-btn {
+        padding: 8px 16px !important;
+        font-size: 0.8rem !important;
+    }
+
+    #lang-toggle {
+        padding: 4px 8px !important;
+        font-size: 0.7rem !important;
+    }
+
+    /* Hero tighter */
+    .hero {
+        padding-top: 85px;
+        padding-bottom: 40px;
+    }
+
+    .hero p,
+    .hero .hero-content>p {
+        font-size: 1rem !important;
+        margin: 25px auto !important;
+    }
+
+    .hero .btn-primary {
+        padding: 16px 30px !important;
+        font-size: 0.95rem !important;
+    }
+
+    .hero-stats {
+        gap: 8px;
+        padding: 8px 12px;
+        margin: 30px auto 0 !important;
+    }
+
+    .stat-item {
+        font-size: 0.55rem;
+        gap: 4px;
+        padding: 4px 4px;
+    }
+
+    .stat-item svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .stat-item:not(:last-child)::after {
+        margin-left: 6px;
+    }
+
+    /* Logo frame on mobile */
+    .logo-frame {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .logo-frame img {
+        height: 140px;
+    }
+
+    /* Cards compact */
+    .glass-card {
+        padding: 24px;
+    }
+
+    .results-card {
+        padding: 30px;
+    }
+
+    .result-metric {
+        font-size: 2.5rem;
+    }
+
+    /* Testimonials */
+    .testimonial-card {
+        width: 260px;
+        padding: 20px;
+    }
+
+    .testimonial-card p {
+        font-size: 0.9rem;
+    }
+
+    /* Pricing table scroll */
+    .pricing-table th,
+    .pricing-table td {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    /* Process */
+    .process-card {
+        padding: 35px 24px 24px;
+    }
+
+    .process-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .step-number {
+        font-size: 4rem;
+    }
+
+    /* Diff */
+    .diff-card {
+        padding: 24px;
+    }
+
+    .diff-card h4 {
+        font-size: 1.1rem;
+    }
+
+    /* Contact */
+    .contact-section {
+        padding: 40px 0 !important;
+    }
+
+    .contact-section h2 {
+        font-size: 1.6rem;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 0 !important;
+        margin-top: 0 !important;
+    }
+}

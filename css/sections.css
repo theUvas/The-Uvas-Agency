@@ -1,0 +1,267 @@
+/* Navigation & Header */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0 50px;
+    background: radial-gradient(circle at top right, rgba(25, 118, 210, 0.05), transparent),
+        radial-gradient(circle at bottom left, rgba(0, 188, 212, 0.05), transparent);
+}
+
+.hero-bg-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: var(--primary);
+    filter: blur(150px);
+    opacity: 0.1;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 800px;
+    z-index: 1;
+}
+
+/* Grid Layouts */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+/* Results Cards (Case Studies) */
+.results-card {
+    background: #ffffff;
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.results-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+.result-metric {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--primary);
+    margin-bottom: 10px;
+    letter-spacing: -0.05em;
+}
+
+/* Pricing Table */
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.pricing-table th {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.pricing-row-uvas {
+    background: rgba(124, 58, 237, 0.05);
+    border-radius: 10px;
+}
+
+.pricing-row-uvas td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pricing-row-uvas td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+/* Contact Form */
+.contact-section {
+    background: linear-gradient(to bottom, #ffffff, #f9fafb);
+    padding: 40px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 16px;
+    background: #ffffff;
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    color: var(--text-main);
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.form-textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* Case Studies Section - Vertical Compact Design */
+.case-study-compact {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 30px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.case-study-compact:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(25, 118, 210, 0.1);
+}
+
+.case-logo-center {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.case-logo-center img {
+    height: 54px;
+    width: auto;
+}
+
+.case-quote-compact {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-main);
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.case-author-compact {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.case-author-compact strong {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+.case-author-compact a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.case-author-compact a:hover {
+    color: var(--secondary);
+}
+
+.case-metrics-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.metric-compact {
+    text-align: center;
+}
+
+.metric-value-compact {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.metric-label-compact {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .case-study-compact {
+        padding: 25px 30px;
+    }
+
+    .case-logo-center img {
+        height: 48px;
+    }
+
+    .case-quote-compact {
+        font-size: 0.95rem;
+    }
+
+    .case-metrics-bottom {
+        gap: 30px;
+    }
+
+    .metric-value-compact {
+        font-size: 1.6rem;
+    }
+}
