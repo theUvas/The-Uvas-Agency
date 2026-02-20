@@ -14,6 +14,10 @@ export const metadata: Metadata = {
     default: "The Uvas | AI Marketing Agency + Custom CRM | $1,500/mo",
     template: "%s | The Uvas",
   },
+  icons: {
+    icon: "/assets/logo.webp",
+    apple: "/assets/logo.webp",
+  },
   description: "All-in-one AI marketing agency: Google & Meta Ads, Custom CRM with mobile app, AI-optimized website, weekly content. $1,500/mo flat rate. Founded by Google & Meta engineers. 8x ROAS proven results. Only 2-3 spots/month.",
   keywords: [
     // English - Primary
