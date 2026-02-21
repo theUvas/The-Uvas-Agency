@@ -29,6 +29,13 @@ export const ContactForm = ({ t, lang }: ContactFormProps) => {
 
             if (error) throw error;
 
+            // Trigger Google Ads conversion tracking
+            if (typeof window !== 'undefined' && typeof (window as any).gtag !== 'undefined') {
+                (window as any).gtag('event', 'conversion', {
+                    'send_to': 'AW-17964200045/nUzMCLqvpvwbEO3g__VC'
+                });
+            }
+
             alert(lang === 'es' ? '¡Gracias! Hemos recibido tu solicitud.' : 'Thank you! We have received your request.');
             setFormData({
                 name: '',
