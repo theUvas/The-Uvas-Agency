@@ -831,6 +831,30 @@ Keywords: AI marketing agency, marketing agency for small business, CRM for smal
           <div className="grid-2" style={{ alignItems: "center" }}>
             <div>
               <h2>{t.contact_h2}</h2>
+              <div style={{ marginTop: "15px", marginBottom: "25px", background: "var(--bg-card)", padding: "20px", borderRadius: "16px", border: "1px solid var(--glass-border)", boxShadow: "0 4px 20px rgba(0,0,0,0.05)" }}>
+                <p style={{ margin: "0 0 12px 0", fontSize: "0.95rem", color: "var(--text-main)" }}>
+                  <strong>📞 {lang === "es" ? "No recibimos llamadas sin agendar." : "No unscheduled calls, please."}</strong> {lang === "es" ? "Contáctanos vía chat para asistencia inmediata." : "Contact us via chat for immediate assistance."}
+                </p>
+                <ul style={{ listStyle: "none", padding: "0", margin: "0 0 20px 0", fontSize: "0.9rem", color: "var(--text-muted)", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <li style={{ lineHeight: 1.5 }}>
+                    <strong>🍇 {lang === "es" ? "Auditoría de Crecimiento (Gratis):" : "Growth Audit (Free):"}</strong> {lang === "es" ? "Para negocios listos para escalar con nuestro " : "For businesses ready to scale with our "} <strong>{lang === "es" ? "Plan All-In ($1.5k/mes)" : "All-In Plan ($1.5k/mo)"}</strong>.
+                  </li>
+                  <li style={{ lineHeight: 1.5 }}>
+                    <strong>💡 {lang === "es" ? "Consultoría Experta ($150/hr):" : "Expert Consulting ($150/hr):"}</strong> {lang === "es" ? "Para consejos generales o feedback. (Costo acreditado al setup si te unes al Plan)." : "For general advice or feedback. (Fee credited to setup if you join the Plan)."}
+                  </li>
+                </ul>
+                <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+                  <a href="https://wa.me/16892610040" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: "10px 18px", fontSize: "0.9rem", borderRadius: "100px", background: "#25D366", borderColor: "#25D366", boxShadow: "0 4px 12px rgba(37, 211, 102, 0.3)" }}>
+                    WhatsApp
+                  </a>
+                  <a href="sms:+16892610040" className="btn btn-primary" style={{ padding: "10px 18px", fontSize: "0.9rem", borderRadius: "100px", background: "#8e8e93", borderColor: "#8e8e93", boxShadow: "0 4px 12px rgba(142, 142, 147, 0.3)" }}>
+                    SMS
+                  </a>
+                  <a href="https://t.me/TheUvas" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: "10px 18px", fontSize: "0.9rem", borderRadius: "100px", background: "#229ED9", borderColor: "#229ED9", boxShadow: "0 4px 12px rgba(34, 158, 217, 0.3)" }}>
+                    Telegram
+                  </a>
+                </div>
+              </div>
               <p style={{ marginBottom: "30px", lineHeight: 1.6, fontSize: "1.1rem" }} dangerouslySetInnerHTML={{ __html: t.contact_p }}></p>
               <div style={{ background: "rgba(124, 58, 237, 0.05)", padding: "24px", borderRadius: "20px", border: "1px solid rgba(124, 58, 237, 0.1)", marginTop: "20px" }}>
                 <h4 style={{ color: "var(--primary)", marginBottom: "16px", fontSize: "1.1rem", letterSpacing: "-0.01em" }}>{t.bonus_h4}</h4>

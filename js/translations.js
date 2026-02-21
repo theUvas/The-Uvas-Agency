@@ -9,7 +9,7 @@ export const translations = {
         hero_h1_start: "Tu departamento de marketing completo, ",
         hero_h1_span: "sin contratar equipo",
         hero_p: "Marketing de alta performance por desarrolladores de Google y Meta. <span class='highlight-price'>$1,500/mes</span> de gestión + tu propio presupuesto de pauta.",
-        hero_cta: "Solicita tu auditoría gratuita",
+        hero_cta: "Aplicar al Plan All-In",
         hero_stat1: "Studios Creativos",
         hero_stat2: "Servicios Premium",
         hero_stat3: "Resultados Medibles",
@@ -72,7 +72,7 @@ export const translations = {
         form_biz_ph: "Ej: Tattoo Studio, Spa...",
         form_msg: "Cuéntanos de tu negocio",
         form_msg_ph: "¿Qué quieres lograr?",
-        form_submit: "Solicitar Auditoría Gratuita",
+        form_submit: "Enviar Solicitud All-In",
         footer_copy: "2024 The Uvas. Todos los derechos reservados."
     },
     en: {
@@ -85,7 +85,7 @@ export const translations = {
         hero_h1_start: "Your complete marketing department, ",
         hero_h1_span: "without hiring a team",
         hero_p: "High-performance marketing by Google and Meta developers. <span class='highlight-price'>$1,500/mo</span> management fee + your own ad budget.",
-        hero_cta: "Request your free audit",
+        hero_cta: "Apply for All-In Plan",
 
         testimonials_title: "Trusted by founders and creative leaders",
         hero_stat1: "Creative Studios",
@@ -148,7 +148,7 @@ export const translations = {
         form_biz_ph: "e.g., Tattoo Studio, Spa...",
         form_msg: "Tell us about your business",
         form_msg_ph: "What do you want to achieve?",
-        form_submit: "Request Free Audit",
+        form_submit: "Apply for All-In Plan",
         footer_copy: "2024 The Uvas. All rights reserved."
     }
 };
