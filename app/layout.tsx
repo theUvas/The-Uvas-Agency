@@ -140,7 +140,14 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'AW-17964200045');
+              gtag('config', 'AW-17964200045', {
+                'send_page_view': true
+              });
+              
+              // Trigger Page View Conversion
+              gtag('event', 'conversion', {
+                'send_to': 'AW-17964200045/IR9YCkVKv_sbEO3g__VC'
+              });
             `,
           }}
         />
